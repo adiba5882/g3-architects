@@ -1,0 +1,317 @@
+/* Google Font-Work Sans */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap');
+/* font */
+body{
+  font-family: Work Sans;
+}
+/* -----nav-banner-section-start ---*/
+.header-body-color{
+    background: rgba(250, 217, 125, 0.1);
+}
+.nav-div-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.G3-Architects-text{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #131313;
+    margin-left: 230px;
+    margin-top: 50px;
+}
+ul{
+     list-style-type: none;
+     display: flex;
+     margin-right: 240px;
+     margin-top: 63px;
+     font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    
+}
+ul li{
+    padding: 1em;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    font-weight: 500;
+    text-align: center;
+}
+ul a{
+    text-decoration: none;
+    color: #424242;
+}
+.first-banner-photo{
+margin-bottom: 45px;
+
+
+}
+.banner-div-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Brand-title-a, .Brand-title-b{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #131313;
+}
+.Brand-title-b{
+    margin-top: -35px;
+}
+.banner-div-section p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -15px;
+}
+.btn-style{
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+/* -----nav-banner-section-end---*/
+/* -----second-section-start---*/
+.team-photo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    
+}
+.team-Photo-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 85px;
+}
+.team-Photo-section p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.team-text-section{
+    margin-left: 73px;
+}
+.team-text-section #tx-color{
+    color: #727272;
+}
+.team-text-section h1{
+    font-weight: 500;
+    font-size: 45px;
+}
+/*------third-section-start-------- */
+.Features-section{
+        display: flex;    
+}
+.boder-a{
+    border-left: 5px solid #FF900E;
+    padding: 0.01em 20px;
+    color: #131313;
+}
+.p-style-section{
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+.Features-text-box{
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.Features-text-box p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.Features-text-box h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.features-section-blogs{
+    flex-direction: column;
+    margin-left: 240px;
+    margin-top: 130px;
+}
+.features-section-blogs h1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.architect-photo{
+    position: relative;
+}
+.architect-photo{
+    margin-right: 240px;
+    margin-top: 130px;
+    margin-left: 146px;
+}
+#btn-exp{
+    width: 342px;
+    height: 200px;
+    margin-top: -640px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0em;
+    margin-left: -85px;
+}
+#btn-exp:hover{
+    background-color: rgba(255, 144, 14, 0.1);
+    color: #000000;
+}
+#btn-exp h1{
+    font-weight: 700;
+    font-size: 65px;
+}
+#span-btn{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+}
+/*------third-section-end-------- */
+/*------fourth-section-start-------- */
+.some-facts-text{
+    margin-left: 240px;
+}
+.some-facts-text h1{
+    font-weight: 700;
+    font-size: 45px; 
+    color: #131313;  
+}
+.some-facts-text p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.Some-facts-icon{
+    display: flex;
+    justify-content: center;
+    gap: 124px;
+    margin-top: 100px;
+}
+.facts-box{
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.facts-box img{
+    margin-top: 45px;
+}
+.facts-box:hover{
+    background-color: rgba(255, 144, 14, 0.1);
+    color: #000000;
+}
+.facts-box h1{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-top: 8px;
+}
+.facts-box p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin-top: -20px;
+}
+/*------fourth-section-end-------- */
+/* ----fifth-section(Our Sponspors)-start-- */
+.our-text{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.sponspors-title p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.sponspors-title{
+    text-align: center;
+    margin-top: 180px;
+}
+.Sponspors-icon{
+    text-align: center;
+    background: #ffffff;   
+}
+.Sponspors-icon img{
+    padding: 50px;
+    mix-blend-mode: luminosity; 
+}
+/* ----fifth-section(Our Sponspors)-end-- */
+/* footer-section-style--------------- */
+footer{
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-top: 130px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 216px;  
+}
+footer div > p{
+    text-align: center;
+    padding: 39px 410px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #424242;
+}
+/* footer-section-end--------------- */
+
+/* --------CSS Media Queries---------- */
+@media only screen and (max-width:576px){
+    .header-body-color{
+        background: rgba(255, 144, 14, 0.1);
+    }        
+    .nav-div-section{
+        flex-direction: column;
+    }
+    ul{
+       margin-left: 0px;
+       margin-top: -20px;
+       display: flex;
+       flex-direction: column;
+       
+   }
+    .Brand-title-b , 
+    .Brand-title-a{
+
+        font-size: 35px;
+        margin: top -200px;  
+    }
+.first-banner-photo{
+    height: 100%px;
+    width: 90%;
+}
+.G3-Architects-text{
+   text-align: center;
+   font-size: 20px;
+   margin: 0px;
+   margin-top: 5px;
+}
+.banner-div-section{
+    margin-left: 3px;
+    padding-left: 5px;
+}
+.Brand-title-a{
+    margin-left: -50px;
+}
+}
